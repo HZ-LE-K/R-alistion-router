@@ -15,6 +15,7 @@ const routes = [
 
 const router = createRouter({
   history: createWebHashHistory(),
+  base: import.meta.env.BASE_URL,
   routes,
   scrollBehavior() {
     return { top: 0 }
