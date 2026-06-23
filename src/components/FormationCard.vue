@@ -181,7 +181,6 @@ const niveauClass = computed(() => ({
   font-size: 0.87rem;
   color: rgba(160,210,230,0.75);
   display: -webkit-box;
-  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   flex: 1;
